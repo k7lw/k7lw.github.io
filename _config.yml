@@ -4,13 +4,13 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Karl Straub"
+title: "The Simple Programmer"
 description: > # this means to ignore newlines until "email:"
    The Simple Programmer
 
 email: a-mail@mail.mail
 #blog logo
-logo: "/assets/images/logo_karl.png"
+logo: "/assets/images/logo_karl.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
@@ -35,7 +35,7 @@ twitter_handle: '@dirkfabisch'
 # social icons and sharing options
 social:
   - icon:	twitter
-    url:	https://twitter.com/dirkfabisch
+    url:	https://twitter.com/
     desc: Follow me on twitter
     share_url: http://twitter.com/share
     share_title: ?text=
@@ -49,7 +49,7 @@ social:
 #    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/dirkfabisch
+    url:	https://github.com/k7lw
     desc:	Fork me on github
     share_url:
     share_title:
