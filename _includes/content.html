@@ -1,0 +1,30 @@
+
+<h2>About Simple Programming</h2>
+<p>Here at Simple Programming were about the programming simplicities.</p>
+
+
+<h2>Features</h2>
+<ul>
+  <li>Simple</li>
+  <li>Straightforward</li>
+  <li><a href="https://hackertyper.net/">Programming</a></li>
+</ul>
+<p>
+{% capture index %}
+  {% include_relative code_blocks/About.md %}
+  {% endcapture %}
+  
+  {{ index | markdownify }}
+</p>
+<hr />
+
+<ul class="fa-ul main-list">
+  <li class="main-list-item">
+    <span class="fa fa-github fa-lg main-list-item-icon"></span>
+    <a href="https://github.com/k7lw/k7lw.github.io">GitHub Repository</a>
+  </li>
+  <li class="main-list-item">
+    <span class="fa fa-user fa-lg main-list-item-icon"></span>
+    <a href="https://github.com/k7lw">The Author</a>
+  </li>
+</ul>
