@@ -8,13 +8,16 @@
   <li>Simple</li>
   <li>Straightforward</li>
   <li><a href="https://hackertyper.net/">Programming</a></li>
+  <li>
+    <a data-target="#resume_modal" data-toggle="modal" class="MainNavText" id="modal_click" 
+       href="#resume_modal">Resume</a>
+</li>
 </ul>
 <p>
-{% capture index %}
-  {% include_relative code_blocks/About.md %}
+  {% capture abb %}
+    {% include_relative code_blocks/About.md %}
   {% endcapture %}
-  
-  {{ index | markdownify }}
+  {{ abb | markdownify }}
 </p>
 <hr />
 
@@ -28,3 +31,33 @@
     <a href="https://github.com/k7lw">The Author</a>
   </li>
 </ul>
+
+
+<!-- The Modal -->
+<div class="modal" id="resume_modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        {% capture resume %}
+          {% include_relative code_blocks/Resume.md %}
+        {% endcapture %}
+
+        {{ resume | markdownify }}
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
