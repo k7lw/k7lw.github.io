@@ -1,5 +1,4 @@
+
 ```
-python
-s = "Python syntax highlighting"
-print s
+Programming Made Simple.
 ```
