@@ -1,8 +1,10 @@
-# Documentation
+# Midterm Project
+# Template README
+## Documentation
 
 Compass is a Jekyll theme designed with something very specific in mind: to be a simple and elegant personal landing page that can be easily deployed to [GitHub Pages](https://pages.github.com/).
 
-## How to use Compass
+### How to use Compass
 
 1. Start by [installing Bundler](http://bundler.io) `gem install bundler`
 2. [Fork the Compass repository](https://github.com/excentris/compass/fork)
@@ -12,7 +14,7 @@ Compass is a Jekyll theme designed with something very specific in mind: to be a
 6. Run the Jekyll server with `bundle exec jekyll serve`
 7. Go to `http://localhost:4000`
 
-## Deploy your site to GitHub Pages
+### Deploy your site to GitHub Pages
 
 If you want to use Compass as your personal landing page you can deploy your site to GitHub Pages as a [User Page](https://help.github.com/articles/user-organization-and-project-pages/#user--organization-pages). To do so, when you are done modifying your clone, you should rename your repository to `username.github.io` where username is your username. When GitHub builds the page it will be made available at `https://username.github.io`.
 
